@@ -7,8 +7,6 @@
 http://bottle.2018.hctf.io/path?path=http://bottle.2018.hctf.io:0/%0a%0d%0a%0d<script>alert `1` </script>`
 ```
 一个CRLF头注入,当端口小与80时猜测firefox不会跳转
-![-w416](media/15420333517622/15420392256228.jpg)
-![-w416](media/15420333517622/15420392645478.jpg)
 利用这个特性使其加载js达到xss
 ## 绕csp
 `hint1 :  */3 */10`
